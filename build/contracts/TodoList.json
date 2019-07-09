@@ -2543,14 +2543,56 @@
   },
   "networks": {
     "5777": {
-      "events": {},
+      "events": {
+        "0x05d0fb833127fc08168556d0e7ca9554fc3f6bc843b3b7d2bf1c35aea6bab660": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "content",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "completed",
+              "type": "bool"
+            }
+          ],
+          "name": "TaskCreated",
+          "type": "event",
+          "signature": "0x05d0fb833127fc08168556d0e7ca9554fc3f6bc843b3b7d2bf1c35aea6bab660"
+        },
+        "0xe21fa966ca5cd02748c0752352d18c48165e61cb55b4c29cccf924b5a95fcff1": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "completed",
+              "type": "bool"
+            }
+          ],
+          "name": "TaskCompleted",
+          "type": "event",
+          "signature": "0xe21fa966ca5cd02748c0752352d18c48165e61cb55b4c29cccf924b5a95fcff1"
+        }
+      },
       "links": {},
-      "address": "0x2E99620F4b5C95BCc6461FB4d10FcCD4fCdDFb31",
-      "transactionHash": "0xa3c3406147ec7613417a4e2e917a90c2c74aadd2427ee0e880af04d53f87c9a2"
+      "address": "0xf4B1B5B58856164A95Ca60f759a7E8ba50Ff25ee",
+      "transactionHash": "0x6d43795520adbc21295e2b25e7eb9508ce9af043d6870742288a2f456fe82c29"
     }
   },
   "schemaVersion": "3.0.1",
-  "updatedAt": "2019-07-09T08:23:15.494Z",
+  "updatedAt": "2019-07-09T14:16:13.632Z",
   "devdoc": {
     "methods": {}
   },
