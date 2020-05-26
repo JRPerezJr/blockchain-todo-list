@@ -13,6 +13,7 @@
   "author": "gregory@dappuniversity.com",
   "license": "ISC",
   "devDependencies": {
+    "@truffle/contract": "^3.0.7",
     "bootstrap": "^4.3.1",
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
@@ -20,11 +21,10 @@
     "diff": ">=3.5.0",
     "lite-server": "^2.3.0",
     "mem": ">=4.0.0",
-    "nodemon": "^1.17.3",
-    "truffle": "5.0.2",
-    "truffle-contract": "^3.0.7"
+    "nodemon": "^2.0.4",
+    "truffle": "^5.1.27"
   },
   "dependencies": {
-    "web3": "^1.0.0-beta.55"
+    "web3": "^1.2.8"
   }
 }
