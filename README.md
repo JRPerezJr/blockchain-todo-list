@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 Runs 🏃‍♀️ 🏃🏻‍♂️ the app in the development mode.
 
-### `npm install in main directory`
+### `npm install`
 
 Installs all dependencies.
 
